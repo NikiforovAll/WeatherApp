@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="Location"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="39.1dp"
+        android:id="@+id/locationTxt"
+        android:gravity="center"
+        android:layout_marginBottom="48.7dp" />
+    <ImageView
+        android:src="@drawable/_01d"
+        android:layout_width="192.8dp"
+        android:layout_height="104.3dp"
+        android:id="@+id/weatherStateImg"
+        android:layout_marginBottom="39.4dp"
+        android:layout_marginLeft="99.4dp"
+        android:layout_marginRight="138.8dp" />
+    <Button
+        android:text="testBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+    <TextView
+        android:text="weather State"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="36.6dp"
+        android:id="@+id/strStateTxt"
+        android:gravity="center" />
+    <TextView
+        android:text="atmospehre"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="27.1dp"
+        android:id="@+id/atmTxt"
+        android:gravity="center"
+        android:layout_marginTop="24.9dp" />
+    <TextView
+        android:text="wind info"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="28.7dp"
+        android:id="@+id/windTxt"
+        android:gravity="center" />
+    <ImageView
+        android:src="@drawable/owm_logo"
+        android:layout_width="384.4dp"
+        android:layout_height="50.7dp"
+        android:id="@+id/logoImg"
+        android:layout_marginBottom="10.0dp"
+        android:layout_marginTop="30dp" />
+    <TextView
+        android:text="last update"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="29.6dp"
+        android:id="@+id/lastUpdate"
+        android:layout_marginLeft="35.6dp"
+        android:layout_marginBottom="1.2dp" />
+</LinearLayout>
